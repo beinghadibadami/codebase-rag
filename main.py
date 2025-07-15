@@ -30,6 +30,10 @@ current_namespace = str(uuid.uuid4())
 class QueryRequest(BaseModel):
     message: str
 
+@app.get("/")
+def health_check():
+    return {"status": "ok", "message": "Backend is running"}
+
 @app.post("/upload-file")
 async def upload_files(files: List[UploadFile] = File(...)):
     # Create a temporary directory
