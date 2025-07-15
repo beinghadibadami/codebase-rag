@@ -1,3 +1,6 @@
+fastapi
+uvicorn
+pydantic
 langchain
 langchain-community
 langchain-core
@@ -5,6 +8,6 @@ langchain-huggingface
 sentence-transformers
 huggingface-hub
 groq
-pinecone-client>=3.0.0
-redis
+pinecone
 python-dotenv
+python-multipart

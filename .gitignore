@@ -1,0 +1,20 @@
+.env
+main_cli.py 
+# Frontend/node ignores
+Frontend/node_modules/
+Frontend/.next/
+Frontend/.env*
+Frontend/.turbo/
+Frontend/out/
+Frontend/.vercel/
+Frontend/.cache/
+Frontend/package-lock.json
+
+# General ignores
+__pycache__/
+.vscode/
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.log
